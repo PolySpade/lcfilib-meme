@@ -1,4 +1,4 @@
-import AboutUs from "@/components/aboutus";
+import AboutUs from "@/components/AboutUs";
 import React from "react";
 import {placeholder} from "@/assets/aboutus/index.js";
 import Image from 'next/image'
