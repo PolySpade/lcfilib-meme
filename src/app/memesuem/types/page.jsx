@@ -9,7 +9,6 @@ const page = () => {
       {posts.map( (item) => 
         <TypesofMeme key={item.slug} slug={item.slug} meme_type={item.meme_type} type_desc={item.type_desc}/>
       )}
-
     </div>
   )
 }

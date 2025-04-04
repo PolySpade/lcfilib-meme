@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { plate } from '@/assets/icons';
 import { ImCross } from "react-icons/im";
 
-const MemeFrame = ({ image, slug, name, short_desc, typeSlug }) => {
+const MemeFrame = ({ image, slug, name, short_desc, framed_image }) => {
   const [isModalOpen, setModalOpen] = useState(false);
 
   const handleOpenModal = () => {
@@ -21,7 +21,7 @@ const MemeFrame = ({ image, slug, name, short_desc, typeSlug }) => {
         {/* Meme image */}
         <div className="mb-10">
           <Image
-            src={image}
+            src={framed_image}
             alt={slug}
             width={320}
             height={320}
@@ -46,35 +46,37 @@ const MemeFrame = ({ image, slug, name, short_desc, typeSlug }) => {
 
       {/* Modal overlay */}
       {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center">
-          {/* Blurred background overlay; click to close */}
-          <div 
-            className="absolute inset-0  bg-opacity-50 backdrop-blur-sm"
-            onClick={handleCloseModal}
-          ></div>
+  <div className="fixed inset-0 z-50 flex items-center justify-center">
+    <div 
+      className="absolute inset-0 bg-opacity-50 backdrop-blur-sm"
+      onClick={handleCloseModal}
+    ></div>
 
-          {/* Modal content */}
-          <div className="border-8 border-solid border-black drop-shadow-lg relative z-60 bg-white rounded-lg p-6 max-w-md w-full mx-4 flex flex-col items-center animate-zoomIn">
-            <button
-              onClick={handleCloseModal}
-              className="cursor-pointer absolute top-2 right-2 text-black font-bold"
-            >
-              <ImCross size={20}/>
-            </button>
-            <div className="mb-4">
-              <Image
-                src={image}
-                alt={slug}
-                width={600}
-                height={600}
-                className="object-contain"
-              />
-            </div>
-            <h2 className="drop-shadow-lg text-3xl text-black font-bold text-center mb-4">{name}</h2>
-            <p className="drop-shadow-sm text-center text-gray-500">{short_desc}</p>
-          </div>
-        </div>
-      )}
+    {/* Modal content */}
+    <div className="border-8 border-solid border-yellow-500 drop-shadow-xl relative z-60 bg-red-900 rounded-lg p-8 max-w-4xl w-full mx-4 flex flex-row items-center animate-zoomIn">
+      <button
+        onClick={handleCloseModal}
+        className="cursor-pointer absolute top-2 right-2 text-black font-bold"
+      >
+        <ImCross size={24} />
+      </button>
+      <div className="mb-4 flex-shrink-0">
+        <Image
+          src={image}
+          alt={slug}
+          width={300}
+          height={300}
+          className="object-contain"
+        />
+      </div>
+      <div className='ml-12 flex flex-col max-w-lg'>
+        <h2 className="drop-shadow-lg text-4xl text-white font-bold mb-4">{name}</h2>
+        <p className="drop-shadow-sm text-gray-200 text-lg">{short_desc}</p>
+      </div>
+    </div>
+  </div>
+)}
+
     </div>
   );
 };

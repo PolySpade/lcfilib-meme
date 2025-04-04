@@ -8,7 +8,7 @@ import Link from "next/link.js";
 const Page = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row mt-12 justify-center items-center">
+      <div className="flex flex-col md:flex-row justify-center items-center">
         {/* Left Side Content */}
         <div className="p-4 flex flex-col items-left">
           <div className="flex justify-start flex-row">
@@ -42,8 +42,8 @@ const Page = () => {
             <h2 className="mr-2 text-white text-base sm:text-xl">
               take a glimpse of
             </h2>
-            <Link href="/memeseum" className="text-gray-400 text-base sm:text-xl italic font-semibold pr-5">
-              the memeseum
+            <Link href="/memesuem" className="text-gray-400 text-base sm:text-xl italic font-semibold pr-5">
+              the memesuem
             </Link>
             
           </div>

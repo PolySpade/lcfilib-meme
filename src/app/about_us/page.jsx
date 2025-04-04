@@ -15,25 +15,25 @@ const Page = () => {
       description: "Researcher",
     },
     {
-        image: placeholder,
-        name: "Kevin Kevin",
-        description: "Researcher",
-      },
-      {
-        image: placeholder,
-        name: "Reign Lorenzo",
-        description: "Researcher",
-      },
-      {
-        image: placeholder,
-        name: "Julia Lopez",
-        description: "Researcher",
-      },
-      {
-        image: placeholder,
-        name: "Rosario Fuentes",
-        description: "Researcher",
-      },
+      image: placeholder,
+      name: "Kevin Kevin",
+      description: "Researcher",
+    },
+    {
+      image: placeholder,
+      name: "Reign Lorenzo",
+      description: "Researcher",
+    },
+    {
+      image: placeholder,
+      name: "Julia Lopez",
+      description: "Researcher",
+    },
+    {
+      image: placeholder,
+      name: "Rosario Fuentes",
+      description: "Researcher",
+    },
   ];
 
   return (

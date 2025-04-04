@@ -13,15 +13,15 @@ export default function Navbar() {
         <div className="flex-1 flex items-center space-x-2">
           <Image src="/logo_stars.svg" alt="logo" width={32} height={32} />
           <Link className="font-bold text-4xl whitespace-nowrap text-white" href="/home">
-            the memeseum
+            the memesuem
           </Link>
         </div>
 
         {/* Desktop Navigation */}
         <div className="flex-none hidden md:flex space-x-4">
           <Link href="/"className="btn bg-white px-10 text-black rounded-lg btn-ghost hover:bg-gray-500 hover:text-white">Home</Link>
-          <Link href="/memeseum" className="btn bg-white px-10 text-red-950 font-bold italic rounded-lg btn-ghost hover:bg-gray-500 hover:text-red-900">The Memeseum</Link>
-          <Link href="/about_memeseum" className="btn bg-white px-10 text-black rounded-lg text-sm btn-ghost hover:bg-gray-500 hover:text-white">About the Memeseum</Link>
+          <Link href="/memesuem" className="btn bg-white px-10 text-red-950 font-bold italic rounded-lg btn-ghost hover:bg-gray-500 hover:text-red-900">The memesuem</Link>
+          <Link href="/about_memesuem" className="btn bg-white px-10 text-black rounded-lg text-sm btn-ghost hover:bg-gray-500 hover:text-white">About the Memesuem</Link>
           <Link href="/about_us" className="btn bg-white px-10 text-black rounded-lg btn-ghost hover:bg-gray-500 hover:text-white">About Us</Link>
         </div>
 
@@ -52,11 +52,11 @@ export default function Navbar() {
           <Link href="/" className="block px-4 py-2 hover:bg-gray-800">
             Home
           </Link>
-          <Link href="/memeseum" className="block px-4 py-2 hover:bg-gray-800">
-            The Memeseum
+          <Link href="/memesuem" className="block px-4 py-2 hover:bg-gray-800">
+            The memesuem
           </Link>
-          <Link href="/about_memeseum" className="block px-4 py-2 hover:bg-gray-800">
-            About the Memeseum
+          <Link href="/about_memesuem" className="block px-4 py-2 hover:bg-gray-800">
+            About the memesuem
           </Link>
           <Link href="/about_us" className="block px-4 py-2 hover:bg-gray-800">
             About Us

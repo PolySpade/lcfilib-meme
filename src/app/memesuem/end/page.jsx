@@ -5,16 +5,16 @@ const page = () => {
   return (
     <div className="flex flex-col mt-20 justify-center items-center">
       <div className="flex flex-row align-middle items-center">
-        <Image src="multistars.svg" alt="mutistars" width={100} height={100} />
-        <h1 className="text-white text-5xl font-bold">the memeseum</h1>
+        <Image src="/multistars.svg" alt="mutistars" width={100} height={100} />
+        <h1 className="text-white text-5xl font-bold">the memesuem</h1>
       </div>
       <div className="flex flex-row ">
         <div className="flex flex-row sm:flex-col md:flex-col lg:flex-row  xl:flex-row  justify-center items-center">
           <div className="flex flex-col drop-shadow-md">
             <h1 className="text-9xl text-white ">MEME</h1>
             <h1 className="text-9xl text-white">BILANG</h1>
-            <h1 className="text-9xl text-gray-400">KONTRA-</h1>
-            <h1 className="text-9xl text-gray-400">GAHUM</h1>
+            <h1 className="text-9xl font-semibold text-red-800">KONTRA-</h1>
+            <h1 className="text-9xl font-semibold text-red-800">GAHUM</h1>
           </div>
 
           <hr
