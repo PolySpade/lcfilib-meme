@@ -396,6 +396,76 @@ const typeDataset = [
       },
     ],
   },
+  {
+    type: "type-12",
+    data: [
+      {
+        image: type_11_pic_1,
+        short_description: "Mula ito sa Budget Hearing ni VP Sara Duterte na kung saan narinig siyang sabihin na “shiminet like”",
+        slug: "pic_1",
+        name: "Budget Hearing",
+      },
+      {
+        image: type_11_pic_2,
+        short_description: "Mula ito sa idea na kapag umuulan tuwing may bagyo ay walang pasok ang ibang antas ngunit papasok pa rin ang mga college students.",
+        slug: "pic_2",
+        name: "Bagyo College",
+      },
+      {
+        image: type_11_pic_3,
+        short_description: "Ginawang katatawanan ang pangalan ni Bong Go bilang Bong Stay.",
+        slug: "pic_3",
+        name: "Bong Stay",
+      },
+      {
+        image: type_11_pic_4,
+        short_description: "Mula ang salita sa sinabi ni Duterte na '75 na grades sapat na' dahil ang passing grade sa Pilipinas ay 75.",
+        slug: "pic_4",
+        name: "75 Grades Meme",
+      },
+      {
+        image: type_11_pic_5,
+        short_description: "Ginagawang katatawanan si Pres. Marcos Jr. dahil sa tila 'lumilipad' ang kanyang sinasabi.",
+        slug: "pic_5",
+        name: "Marcos Jr. Flying",
+      },
+    ],
+  },
+  {
+    type: "type-13",
+    data: [
+      {
+        image: type_11_pic_1,
+        short_description: "Mula ito sa Budget Hearing ni VP Sara Duterte na kung saan narinig siyang sabihin na “shiminet like”",
+        slug: "pic_1",
+        name: "Budget Hearing",
+      },
+      {
+        image: type_11_pic_2,
+        short_description: "Mula ito sa idea na kapag umuulan tuwing may bagyo ay walang pasok ang ibang antas ngunit papasok pa rin ang mga college students.",
+        slug: "pic_2",
+        name: "Bagyo College",
+      },
+      {
+        image: type_11_pic_3,
+        short_description: "Ginawang katatawanan ang pangalan ni Bong Go bilang Bong Stay.",
+        slug: "pic_3",
+        name: "Bong Stay",
+      },
+      {
+        image: type_11_pic_4,
+        short_description: "Mula ang salita sa sinabi ni Duterte na '75 na grades sapat na' dahil ang passing grade sa Pilipinas ay 75.",
+        slug: "pic_4",
+        name: "75 Grades Meme",
+      },
+      {
+        image: type_11_pic_5,
+        short_description: "Ginagawang katatawanan si Pres. Marcos Jr. dahil sa tila 'lumilipad' ang kanyang sinasabi.",
+        slug: "pic_5",
+        name: "Marcos Jr. Flying",
+      },
+    ],
+  }
 ];
 
 export default typeDataset;
