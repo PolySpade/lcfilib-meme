@@ -53,13 +53,14 @@ const MemeFrame = ({ image, slug, name, short_desc, framed_image }) => {
     ></div>
 
     {/* Modal content */}
-    <div className="border-8 border-solid border-yellow-500 drop-shadow-xl relative z-60 bg-red-900 rounded-lg p-8 max-w-4xl w-full mx-4 flex flex-row items-center animate-zoomIn">
+    <div className="border-8 border-solid border-yellow-500 drop-shadow-xl relative z-60 bg-red-900 rounded-lg p-8 max-w-2xl mx-4 flex flex-col items-center animate-zoomIn">
       <button
         onClick={handleCloseModal}
         className="cursor-pointer absolute top-2 right-2 text-black font-bold"
       >
         <ImCross size={24} />
       </button>
+      
       <div className="mb-4 flex-shrink-0">
         <Image
           src={image}

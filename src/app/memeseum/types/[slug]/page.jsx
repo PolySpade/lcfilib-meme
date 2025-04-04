@@ -43,12 +43,12 @@ export default async function Page({ params }) {
         <div className="flex flex-row justify-between items-center px-4 mb-4">
   {/* Left: Home + Menu */}
   <div className="flex items-center">
-    <Link href="/memesuem">
+    <Link href="/memeseum">
       <div className="tooltip tooltip-bottom" data-tip="Home">
         <Image src={home} alt="home icon" width={50} height={50} />
       </div>
     </Link>
-    <Link href="/memesuem/types" className="ml-4">
+    <Link href="/memeseum/types" className="ml-4">
       <div className="tooltip tooltip-bottom" data-tip="Meme Types">
         <ImMenu size={30} className="text-white" />
       </div>
@@ -59,7 +59,7 @@ export default async function Page({ params }) {
   <div className="flex items-center gap-4">
     {!start && (
       <Link
-        href={`/memesuem/types/type-${prev_slug}`}
+        href={`/memeseum/types/type-${prev_slug}`}
         className="transition-transform duration-300 ease-in-out hover:-translate-x-2"
       >
         <ImArrowLeft size={60} className="text-yellow-100" />
@@ -67,14 +67,14 @@ export default async function Page({ params }) {
     )}
     {!end ? (
       <Link
-        href={`/memesuem/types/type-${next_slug}`}
+        href={`/memeseum/types/type-${next_slug}`}
         className="transition-transform duration-300 ease-in-out hover:translate-x-2"
       >
         <ImArrowRight size={60} className="text-yellow-100" />
       </Link>
     ) : (
       <Link
-        href="/memesuem/end"
+        href="/memeseum/end"
         className="transition-transform duration-300 ease-in-out hover:translate-x-2"
       >
         <ImArrowRight size={60} className="text-yellow-100" />

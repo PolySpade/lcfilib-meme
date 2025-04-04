@@ -6,7 +6,7 @@ const page = () => {
     <div className="flex flex-col mt-20 justify-center items-center">
       <div className="flex flex-row align-middle items-center">
         <Image src="/multistars.svg" alt="mutistars" width={100} height={100} />
-        <h1 className="text-white text-5xl font-bold">the memesuem</h1>
+        <h1 className="text-white text-5xl font-bold">the memeseum</h1>
       </div>
       <div className="flex flex-row ">
         <div className="flex flex-row sm:flex-col md:flex-col lg:flex-row  xl:flex-row  justify-center items-center">

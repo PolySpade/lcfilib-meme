@@ -6,7 +6,7 @@ const AboutUs = ({image,name,description}) => {
 
   return (
     <div className="flex flex-row">
-      <div className="w-80 h-80 overflow-clip rounded-full flex justify-center items-center">
+      <div className="w-50 h-50 overflow-clip rounded-full flex justify-center items-center">
         <Image
           src={image}
           alt={name}

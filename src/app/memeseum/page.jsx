@@ -24,7 +24,7 @@ const page = () => {
 
           <div className="flex flex-col md:flex-row items-center gap-4 mb-4">
             <h1 className="italic text-5xl sm:text-6xl md:text-8xl text-yellow-500 font-bold">
-              the memesuem
+              the memeseum
             </h1>
             <Image
               src="/multistars.svg"
@@ -39,7 +39,7 @@ const page = () => {
             Ang Pagtatanghal ng Iba’t Ibang Klase ng Political Meme
           </p>
           <div className="flex justify-end">
-          <Link href="/memesuem/types/type-1">
+          <Link href="/memeseum/types/type-1">
             <div className="transition-transform duration-300 ease-in-out hover:-translate-x-2">
               <ImArrowRight size={90} className="text-yellow-100" />
             </div>

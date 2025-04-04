@@ -7,7 +7,7 @@ const TypesofMeme = ({ slug, meme_type, type_desc }) => {
       <div className="tooltip tooltip-top" data-tip={type_desc}>
         <Link
           className="font-semibold text-4xl text-white drop-shadow-md"
-          href={`/memesuem/types/${slug}`}
+          href={`/memeseum/types/${slug}`}
         >
           {meme_type}
         </Link>

@@ -8,7 +8,7 @@ const ArimoSans = Arimo({
 });
 
 export const metadata = {
-  title: "Meme Musuem",
+  title: "Meme Musem",
   description: "A LCFILIB Project",
 };
 
