@@ -1,0 +1,68 @@
+[
+    {
+        "slug": "type-1",
+        "meme_type": "Type 1: Paggamit ng Kilalang Personalidad",
+        "type_desc": "Ang meme na ito ay gumagamit ng sikat na tao, kadalasan artista o kandidato, para ipagpuna ang kandidato."
+    },
+    {
+        "slug": "type-2",
+        "meme_type": "Type 2: Paglikha ng Bagong Larawan",
+        "type_desc": "Ang paglikha ng bagong larawan ay gumagamit ng iba’t-ibang elemento at pinaghahalo para gumawa ng meme tungkol sa isang kandidato at pinupuna siya. Maaari siyang may diyalogo at wala."
+    },
+    {
+        "slug": "type-3",
+        "meme_type": "Type 3: Paggamit ng mahalagang pangyayari",
+        "type_desc": "Ang uri ng meme na ito ay gumagamit ng pangyayari sa totoong buhay at nilalagay sa konteksto ng kandidato."
+    },
+    {
+        "slug": "type-4",
+        "meme_type": "Type 4: Paggamit ng pelikula/palabas",
+        "type_desc": "Ginagamit ng meme na ito ang mga Pelikula/Palabas sa telebisyon upang maging representasyon ng mga politiko. Maaaring ang rinerepresenta ng Karakter sa pelikula ang ugali ng Politiko kaya ito ang ginagamit."
+    },
+    {
+        "slug": "type-5",
+        "meme_type": "Type 5: Screenshot",
+        "type_desc": "Ang meme na ito ay mula na sa post ng isang tao na kinuhanan ng litrato bilang i-post sa ibang page/platform upang maging bagong meme. Maaaring dahil sa kontrobersyal unang nag-post, dahil sa mga interaksyon sa ng mga tao sa comment section, at maaari rin na gusto lamang ipalakalat ang meme na ito sa ibang social media platform."
+    },
+    {
+        "slug": "type-6",
+        "meme_type": "Type 6: Paghahanay ng mga Larawan",
+        "type_desc": "Nabubuo ang meme nito mula sa paghahanay ng mga litrato ng mga kandidato sa ibang imahe/salita na nagrerepresenta pa sa kanila. "
+    },
+    {
+        "slug": "type-7",
+        "meme_type": "Type 7: Pagbubuo ng salita mula sa tambalan",
+        "type_desc": "Ang pagbubuo ng salita mula sa tambalan ay tumutukoy sa paggawa ng bagong salita sa pamamagitan ng pagsasama o pagdugtong ng dalawang magkaibang salita. Kapag pinagsama ang mga salitang ito, nagkakaroon sila ng bagong kahulugan."
+    },
+    {
+        "slug": "type-8",
+        "meme_type": "Type 8: Pagsasama-sama ng mga larawan",
+        "type_desc": "Ang pagsasama-sama ng mga larawan ay nangangahulugang ang pag-aayos o pagtitipon ng iba't ibang mga larawan at ipinapakita ang mga ito bilang isang kabuuan. Maaari itong mangyari sa pamamagitan ng paggawa ng collage o album kung saan ang mga larawan ay may pagkakapareho o may kaugnayan sa isa’t isa. "
+    },
+    {
+        "slug": "type-9",
+        "meme_type": "Type 9: Pagsasama-sama ng mga meme",
+        "type_desc": "Ang pagsasama-sama ng mga meme ay ang pagkuha ng iba't ibang memes at pagtitipon ng mga ito upang bumuo ng isang koleksyon. Ang mga meme ay mga nakakatawang imahe, video, o teksto na karaniwang may kinalaman sa mga kasalukuyang pangyayari o mga bagay na sikat sa internet."
+    },
+    {
+        "slug": "type-10",
+        "meme_type": "Type 10: Pagdaragdag ng mga salita: gamit diyalogo",
+        "type_desc": "Sa meme na ito ay dinadagdagan ng diyalogo ang mga litrato ng mga politiko para mukha silang nag-uusap. "
+    },
+    {
+        "slug": "type-11",
+        "meme_type": "Type 11: Pagdaragdag ng mga salita: salita sa orihinal na larawan",
+        "type_desc": "Ang meme na ito ay gumagamit ng larawan ng mga politiko/kandidato at nilalapatan ng mga salitang bumabagay sa kanilang litrato, maaaring sa paaraan kung ano ang kanilang iniisip mula sa kanilang litrato."
+    },
+    {
+        "slug": "type-12",
+        "meme_type": "Type 12: Pagdaragdag ng mga salita: direktang sipi sa mga larawan",
+        "type_desc": "no desc"
+    },
+    {
+        "slug": "type-13",
+        "meme_type": "Type 13: Pagdaragdag ng mga salita: Popular na linya",
+        "type_desc": "no desc"
+    }
+
+]
